@@ -1,0 +1,261 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'heroku-cli' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'heroku-cli', null ]
+5 verbose cache add name=undefined spec="heroku-cli" args=["heroku-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'heroku-cli',
+6 verbose parsed url   path: 'heroku-cli',
+6 verbose parsed url   href: 'heroku-cli' }
+7 silly lockFile 2a633d17-heroku-cli heroku-cli
+8 verbose lock heroku-cli /home/zakuroci/.npm/2a633d17-heroku-cli.lock
+9 silly lockFile 2a633d17-heroku-cli heroku-cli
+10 silly lockFile 2a633d17-heroku-cli heroku-cli
+11 verbose addNamed [ 'heroku-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 93d219be-heroku-cli heroku-cli@
+14 verbose lock heroku-cli@ /home/zakuroci/.npm/93d219be-heroku-cli.lock
+15 silly addNameRange { name: 'heroku-cli', range: '*', hasData: false }
+16 verbose url raw heroku-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli' ]
+18 verbose url resolved https://registry.npmjs.org/heroku-cli
+19 info trying registry request attempt 1 at 23:40:35
+20 http GET https://registry.npmjs.org/heroku-cli
+21 http 200 https://registry.npmjs.org/heroku-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Wed, 06 Sep 2017 20:45:51 GMT',
+22 silly registry.get     etag: '"59b05e7f-51e5e"',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '335454',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sun, 10 Sep 2017 20:40:36 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-hhn1533-HHN',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1505076036.432500,VS0,VE10',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'heroku-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'heroku-cli',
+24 silly addNameRange   [ '6.0.0',
+24 silly addNameRange     '6.0.1',
+24 silly addNameRange     '6.0.2',
+24 silly addNameRange     '6.0.7',
+24 silly addNameRange     '6.1.4',
+24 silly addNameRange     '6.1.5',
+24 silly addNameRange     '6.1.6',
+24 silly addNameRange     '6.1.7',
+24 silly addNameRange     '6.2.0',
+24 silly addNameRange     '6.2.1',
+24 silly addNameRange     '6.3.0',
+24 silly addNameRange     '6.3.1',
+24 silly addNameRange     '6.4.0',
+24 silly addNameRange     '6.4.1',
+24 silly addNameRange     '6.5.0',
+24 silly addNameRange     '6.5.1',
+24 silly addNameRange     '6.5.2',
+24 silly addNameRange     '6.5.3',
+24 silly addNameRange     '6.5.4',
+24 silly addNameRange     '6.5.5',
+24 silly addNameRange     '6.6.0',
+24 silly addNameRange     '6.6.2',
+24 silly addNameRange     '6.6.5',
+24 silly addNameRange     '6.6.7',
+24 silly addNameRange     '6.6.8',
+24 silly addNameRange     '6.6.9',
+24 silly addNameRange     '6.6.10',
+24 silly addNameRange     '6.6.11',
+24 silly addNameRange     '6.6.12',
+24 silly addNameRange     '6.6.13',
+24 silly addNameRange     '6.6.14',
+24 silly addNameRange     '6.6.15',
+24 silly addNameRange     '6.6.16',
+24 silly addNameRange     '6.6.17',
+24 silly addNameRange     '6.6.18',
+24 silly addNameRange     '6.6.19',
+24 silly addNameRange     '6.7.0',
+24 silly addNameRange     '6.7.1',
+24 silly addNameRange     '6.7.2',
+24 silly addNameRange     '6.7.3',
+24 silly addNameRange     '6.7.4',
+24 silly addNameRange     '6.8.0',
+24 silly addNameRange     '6.8.1',
+24 silly addNameRange     '6.8.2',
+24 silly addNameRange     '6.8.3',
+24 silly addNameRange     '6.8.4',
+24 silly addNameRange     '6.8.5',
+24 silly addNameRange     '6.9.0',
+24 silly addNameRange     '6.9.1',
+24 silly addNameRange     '6.9.2',
+24 silly addNameRange     '6.9.3',
+24 silly addNameRange     '6.9.4',
+24 silly addNameRange     '6.9.5',
+24 silly addNameRange     '6.9.6',
+24 silly addNameRange     '6.9.7',
+24 silly addNameRange     '6.10.0',
+24 silly addNameRange     '6.10.1',
+24 silly addNameRange     '6.10.2' ] ]
+25 verbose addNamed [ 'heroku-cli', '6.10.2' ]
+26 verbose addNamed [ '6.10.2', '6.10.2' ]
+27 silly lockFile 37244cf3-heroku-cli-6-10-2 heroku-cli@6.10.2
+28 verbose lock heroku-cli@6.10.2 /home/zakuroci/.npm/37244cf3-heroku-cli-6-10-2.lock
+29 silly lockFile 05928885-heroku-cli-heroku-cli-6-10-2-tgz https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+30 verbose lock https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz /home/zakuroci/.npm/05928885-heroku-cli-heroku-cli-6-10-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz',
+31 verbose addRemoteTarball   '8ca4cb3cbb49a01e4204a0570a0313cab6e7d2bd' ]
+32 info retry fetch attempt 1 at 23:40:37
+33 verbose fetch to= /home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/tmp.tgz
+34 http GET https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+35 http 200 https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+36 verbose tar unpack /home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/tmp.tgz
+37 silly lockFile 97cea529-37456-0-5931969967205077-package tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+38 verbose lock tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package /home/zakuroci/.npm/97cea529-37456-0-5931969967205077-package.lock
+39 silly lockFile 9d4f8f7c-37456-0-5931969967205077-tmp-tgz tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/tmp.tgz
+40 verbose lock tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/tmp.tgz /home/zakuroci/.npm/9d4f8f7c-37456-0-5931969967205077-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry CHANGELOG
+46 silly gunzTarPerm extractEntry bin/run.js
+47 silly gunzTarPerm extractEntry bin/run
+48 silly lockFile 97cea529-37456-0-5931969967205077-package tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+49 silly lockFile 97cea529-37456-0-5931969967205077-package tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+50 silly lockFile 9d4f8f7c-37456-0-5931969967205077-tmp-tgz tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/tmp.tgz
+51 silly lockFile 9d4f8f7c-37456-0-5931969967205077-tmp-tgz tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/tmp.tgz
+52 verbose tar pack [ '/home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz',
+52 verbose tar pack   '/home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package' ]
+53 verbose tarball /home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+54 verbose folder /home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+55 silly lockFile 97cea529-37456-0-5931969967205077-package tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+56 verbose lock tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package /home/zakuroci/.npm/97cea529-37456-0-5931969967205077-package.lock
+57 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+58 verbose lock tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz /home/zakuroci/.npm/b6f8da69-pm-heroku-cli-6-10-2-package-tgz.lock
+59 silly lockFile 97cea529-37456-0-5931969967205077-package tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+60 silly lockFile 97cea529-37456-0-5931969967205077-package tar:///home/zakuroci/tmp/npm-18490-umrsplN_/1505076037456-0.5931969967205077/package
+61 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+62 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+63 silly lockFile 6c089791-ci-npm-heroku-cli-6-10-2-package /home/zakuroci/.npm/heroku-cli/6.10.2/package
+64 verbose lock /home/zakuroci/.npm/heroku-cli/6.10.2/package /home/zakuroci/.npm/6c089791-ci-npm-heroku-cli-6-10-2-package.lock
+65 silly lockFile 6c089791-ci-npm-heroku-cli-6-10-2-package /home/zakuroci/.npm/heroku-cli/6.10.2/package
+66 silly lockFile 6c089791-ci-npm-heroku-cli-6-10-2-package /home/zakuroci/.npm/heroku-cli/6.10.2/package
+67 verbose tar unpack /home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+68 silly lockFile ff954c3e-ci-npm-heroku-cli-6-10-2-package tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package
+69 verbose lock tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package /home/zakuroci/.npm/ff954c3e-ci-npm-heroku-cli-6-10-2-package.lock
+70 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+71 verbose lock tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz /home/zakuroci/.npm/b6f8da69-pm-heroku-cli-6-10-2-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry bin/run.js
+76 silly gunzTarPerm extractEntry bin/run
+77 silly lockFile ff954c3e-ci-npm-heroku-cli-6-10-2-package tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package
+78 silly lockFile ff954c3e-ci-npm-heroku-cli-6-10-2-package tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package
+79 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+80 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+81 verbose chmod /home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz 644
+82 verbose chown /home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz [ 1000, 1000 ]
+83 silly lockFile 05928885-heroku-cli-heroku-cli-6-10-2-tgz https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+84 silly lockFile 05928885-heroku-cli-heroku-cli-6-10-2-tgz https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+85 silly lockFile 37244cf3-heroku-cli-6-10-2 heroku-cli@6.10.2
+86 silly lockFile 37244cf3-heroku-cli-6-10-2 heroku-cli@6.10.2
+87 silly lockFile 93d219be-heroku-cli heroku-cli@
+88 silly lockFile 93d219be-heroku-cli heroku-cli@
+89 silly resolved [ { name: 'heroku-cli',
+89 silly resolved     description: 'CLI to interact with Heroku',
+89 silly resolved     version: '6.10.2',
+89 silly resolved     author: { name: 'Jeff Dickey @dickeyxxx' },
+89 silly resolved     bin: { heroku: 'bin/run' },
+89 silly resolved     bugs: { url: 'https://github.com/heroku/cli/issues' },
+89 silly resolved     'cli-engine':
+89 silly resolved      { dirname: 'heroku',
+89 silly resolved        bin: 'heroku',
+89 silly resolved        node: '7.10.0',
+89 silly resolved        defaultCommand: 'dashboard',
+89 silly resolved        s3: [Object],
+89 silly resolved        plugins: [Object] },
+89 silly resolved     dependencies:
+89 silly resolved      { 'cli-engine': '3.5.10',
+89 silly resolved        'heroku-apps': '2.3.1',
+89 silly resolved        'heroku-certs': '1.1.38',
+89 silly resolved        'heroku-ci': '1.8.0',
+89 silly resolved        'heroku-cli-addons': '1.2.21',
+89 silly resolved        'heroku-cli-oauth': '2.0.13',
+89 silly resolved        'heroku-cli-status': '4.0.0',
+89 silly resolved        'heroku-fork': '4.1.22',
+89 silly resolved        'heroku-git': '2.5.17',
+89 silly resolved        'heroku-local': '5.1.16',
+89 silly resolved        'heroku-orgs': '1.6.2',
+89 silly resolved        'heroku-pg': '2.2.1',
+89 silly resolved        'heroku-pipelines': '2.1.1',
+89 silly resolved        'heroku-ps-exec': '1.0.1',
+89 silly resolved        'heroku-redis': '1.2.14',
+89 silly resolved        'heroku-run': '3.4.11',
+89 silly resolved        'heroku-spaces': '2.9.2' },
+89 silly resolved     files: [ 'bin' ],
+89 silly resolved     homepage: 'https://cli.heroku.com',
+89 silly resolved     keywords: [ 'heroku', 'heroku-cli-plugin' ],
+89 silly resolved     license: 'ISC',
+89 silly resolved     repository: { type: 'git', url: 'https://github.com/heroku/cli' },
+89 silly resolved     scripts: { build: 'cli-build', release: 'cli-release' },
+89 silly resolved     readme: 'Heroku CLI\n==========\n\n![Heroku logo](https://d4yt8xl9b7in.cloudfront.net/assets/home/logotype-heroku.png)\n\n[![Circle CI](https://circleci.com/gh/heroku/cli/tree/master.svg?style=svg)](https://circleci.com/gh/heroku/cli/tree/master)\n[![Build status](https://ci.appveyor.com/api/projects/status/ouee3b9d7jwkjcr1/branch/master?svg=true)](https://ci.appveyor.com/project/Heroku/cli/branch/master)\n[![Snap Status](https://build.snapcraft.io/badge/heroku/cli.svg)](https://build.snapcraft.io/user/heroku/cli)\n[![ISC License](https://img.shields.io/github/license/heroku/cli.svg)](https://github.com/heroku/cli/blob/master/LICENSE)\n\nThe Heroku CLI is used to manage Heroku apps from the command line.\n\nFor more about Heroku see <https://www.heroku.com/home>\n\nTo get started see <https://devcenter.heroku.com/start>\n\nOverview\n========\n\nThis is the next generation Node-based Heroku CLI.  The goals of this project were to make plugins more flexible, remove Ruby as a runtime dependency, and make the CLI faster.\n\nIt has identical functionality to the old Ruby CLI. Under the hood, it is a modular CLI made up of node.js plugins.\n\nFor more on developing plugins, read [Developing CLI Plugins](https://devcenter.heroku.com/articles/developing-cli-plugins)\n\nIssues\n======\n\nFor problems directly related to the CLI, [add an issue on GitHub](https://github.com/heroku/cli/issues/new).\n\nFor other issues, [submit a support ticket](https://help.heroku.com/).\n\n[Contributors](https://github.com/heroku/cli/contributors)\n\nDeveloping\n==========\n\nDeveloping the CLI locally requires node.\n\nThe bulk of the code for this project lives at [heroku/cli-engine](https://github.com/heroku/cli-engine) and its dependencies.\n\nTo run the CLI locally, use the `./bin/run` script.\n\n**Alpha build note:** To make the run script operable, you must use yarn >= 0.21.3. After the initial project `yarn install`, do the following:\n\n```\ncd ./node_modules/cli-engine\nyarn install\nyarn prepare\n```\n',
+89 silly resolved     readmeFilename: 'README.md',
+89 silly resolved     _id: 'heroku-cli@6.10.2',
+89 silly resolved     dist: { shasum: '6303ec4a21d1f7155148aa649552b6b370d3479e' },
+89 silly resolved     _from: 'heroku-cli@',
+89 silly resolved     _resolved: 'https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz' } ]
+90 info install heroku-cli@6.10.2 into /usr/local/lib
+91 info installOne heroku-cli@6.10.2
+92 info /usr/local/lib/node_modules/heroku-cli unbuild
+93 verbose tar unpack /home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+94 silly lockFile fc019f02-ocal-lib-node-modules-heroku-cli tar:///usr/local/lib/node_modules/heroku-cli
+95 verbose lock tar:///usr/local/lib/node_modules/heroku-cli /home/zakuroci/.npm/fc019f02-ocal-lib-node-modules-heroku-cli.lock
+96 silly lockFile b6f8da69-pm-heroku-cli-6-10-2-package-tgz tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz
+97 verbose lock tar:///home/zakuroci/.npm/heroku-cli/6.10.2/package.tgz /home/zakuroci/.npm/b6f8da69-pm-heroku-cli-6-10-2-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+99 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+99 error   errno: 3,
+99 error   code: 'EACCES',
+99 error   path: '/usr/local/lib/node_modules',
+99 error   fstream_type: 'Directory',
+99 error   fstream_path: '/usr/local/lib/node_modules/heroku-cli',
+99 error   fstream_class: 'DirWriter',
+99 error   fstream_stack:
+99 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+99 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+99 error      'Object.oncomplete (fs.js:107:15)' ] }
+100 error Please try running this command again as root/Administrator.
+101 error System Linux 4.4.0-31-generic
+102 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "heroku-cli"
+103 error cwd /home/zakuroci/locallibrary/locallibrary
+104 error node -v v0.10.25
+105 error npm -v 1.3.10
+106 error path /usr/local/lib/node_modules
+107 error fstream_path /usr/local/lib/node_modules/heroku-cli
+108 error fstream_type Directory
+109 error fstream_class DirWriter
+110 error code EACCES
+111 error errno 3
+112 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+113 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+113 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+113 error fstream_stack Object.oncomplete (fs.js:107:15)
+114 verbose exit [ 3, true ]
