@@ -17,7 +17,7 @@ html5lib==0.999
 httplib2==0.8
 language-selector==0.1
 louis==2.5.3
-lxml==3.3.3
+lxml==4.6.5
 oauthlib==0.6.1
 onboard==1.0.1
 oneconf==0.3.7.14.04.1
